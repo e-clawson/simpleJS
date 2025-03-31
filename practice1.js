@@ -22,15 +22,23 @@
  // step 1 - make the function = done! 
  // step 2 - for loop? - set it up same as last problem 
 
- function multiplicationTable() {
-    for (let i = 0; i<=10 ; i++) {
-        for(let n = 0; n<=10; n++){
-            console.log(i + "*" + n + "=" + n*i)
-        }
-    }
- }
- multiplicationTable()
+//  function multiplicationTable() {
+//     for (let i = 0; i<=10 ; i++) {
+//         for(let n = 0; n<=10; n++){
+//             console.log(i + "*" + n + "=" + n*i)
+//         }
+//     }
+//  }
+//  multiplicationTable()
 
  //works! doesn't look like a "table" but it doest list them 
 
- //3 - 
+ //3 - convert km to miles - there are 0.621371 miles in 1 km so to get how many miles in x km you need to 
+ //multiply by 0.621etc
+let x = 5;
+
+ function kilometersToMiles(x) {
+    console.log(x*0.621371)
+ }
+
+kilometersToMiles(x);
