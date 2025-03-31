@@ -32,3 +32,5 @@
  multiplicationTable()
 
  //works! doesn't look like a "table" but it doest list them 
+
+ //3 - 
