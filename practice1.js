@@ -33,14 +33,34 @@
 
  //works! doesn't look like a "table" but it doest list them 
 
+ //---------------------------------------------------------
+
  //3 - convert km to miles - there are 0.621371 miles in 1 km so to get how many miles in x km you need to 
  //multiply by 0.621etc
-let x = 5;
 
- function kilometersToMiles(x) {
-    console.log(Math.round(x * 0.621371));
- }
+// let x = 5;
 
-kilometersToMiles(x);
+//  function kilometersToMiles(x) {
+//     console.log(Math.round(x * 0.621371));
+//  }
+
+// kilometersToMiles(x);
 
 //added Math.round to get the nearest whole number 
+
+//-------------------------------------------------
+
+//4 - calculate the sum of numbers in an array - need a for loop again? 
+
+let a = [1,2,3,4,5]
+
+function sumArray(a) {
+    let sum = 0;
+    
+    for (let i=0; i<a.length; i++){
+        sum+= a[i]
+    }
+    console.log(sum)
+}
+
+sumArray(a);
