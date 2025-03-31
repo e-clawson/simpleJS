@@ -38,7 +38,9 @@
 let x = 5;
 
  function kilometersToMiles(x) {
-    console.log(x*0.621371)
+    console.log(Math.round(x * 0.621371));
  }
 
 kilometersToMiles(x);
+
+//added Math.round to get the nearest whole number 
