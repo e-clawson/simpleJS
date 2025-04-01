@@ -52,15 +52,24 @@
 
 //4 - calculate the sum of numbers in an array - need a for loop again? 
 
-let a = [1,2,3,4,5]
+// let a = [1,2,3,4,5]
 
-function sumArray(a) {
-    let sum = 0;
-    
-    for (let i=0; i<a.length; i++){
-        sum+= a[i]
-    }
-    console.log(sum)
-}
+// function sumArray(a) {
+//     let sum = 0;
 
-sumArray(a);
+//     for (let i=0; i<a.length; i++){
+//         sum+= a[i]
+//     }
+//     console.log(sum)
+// }
+
+// sumArray(a);
+
+//--------------------------------------------
+//5 - create a function that reverses an array 
+
+
+
+//--------------------------------------------
+//6- sort an array from lowest to highest 
+
